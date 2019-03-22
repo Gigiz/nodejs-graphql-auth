@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-graphql-auth",
+  "version": "1.0.0",
+  "description": "Authentication middleware with Node.js and GraphQL",
+  "main": "index.js",
+  "repository": "git@github.com:Gigiz/nodejs-graphql-auth.git",
+  "author": "Luigi Colombi <lucolombi89@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "node.js",
+    "graphql"
+  ],
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "argon2": "^0.21.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
